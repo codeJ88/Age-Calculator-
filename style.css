@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.container{
+    display:grid;
+    width:600px;
+    max-width: 90%;
+    margin:auto;
+    margin-top:10%;
+    margin-bottom:10%;
+    align-items:center;
+    justify-content:center;
+    flex-direction: grid;
+    background-color: blueviolet;
+    box-shadow:8px 8px rgb(41, 28, 61);
+    color:white;
+    padding:5% 0%;
+
+    
+}
+
+#currDate{
+    font-size:39px;
+    font-weight:bold;
+}
+
+
+input{
+    font-size:20px;
+    padding:15px;
+    margin:20px;
+    text-align:center;
+    border-radius: 20px;
+    border:4px solid rgb(78, 90, 255);
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:white;
+    color:rgb(76, 76, 179);
+    cursor:pointer;
+}
+
+#displayAge{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:625px;
+    background-color: rgba(23, 17, 90, 0.76);
+    box-shadow: 8px 9px black;
+    border-radius:50px;
+    position:absolute;
+    top: 90px;
+    left: 34%;
+    visibility: hidden;
+}
+/* moved the display age container to centre to align with bottom text */
+/* added a box-shadow around display age to make it more*/
+
+#age{
+    color:rgb(116, 92, 255);
+    font-size:50px;
+    margin:20px;
+    font-weight:bold;
+}
